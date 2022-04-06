@@ -1,1 +1,8 @@
 theme: jekyll-theme-cayman
+url: https://sophrodri.github.io/
+baseurl: /jk-assignment/
+title: Test Jekkyl site 
+description: This is my first Jekyll site
+instagram: "http://instagram.com/username"
+author: Sophia Rodriguez 
+
