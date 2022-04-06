@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-.main-content h1{
-color: purple; 
+h1{
+color: #000000; 
 }
