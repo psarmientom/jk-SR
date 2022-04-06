@@ -50,11 +50,13 @@ __This is bold with underscores__
 *** 
 ---
 
-- regular link structure 
 <a href="http://google.com">Google</a>
    
-- Mark down link structure 
+# Mark down link structure 
 [Google](http://google.com)
+
+# Image Link 
+![dog playing](images/dog.webp)
 
 
 
