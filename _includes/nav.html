@@ -1,7 +1,18 @@
-<nav>
+<!-- <nav>
     <ul> 
         <li class="btn"><a href="index">home</a></li>
         <li class="btn"><a href="about">about</a></li>
         <li class="btn"><a href="contact">contact</a></li>
     </ul>
-</nav>
+</nav> -->
+
+<!-- everytime you add a new html page, it adds to the nav -->
+<ul>
+    {% assign sorted_pages = site.html_pages | sort:"order" %}
+      <!-- Go to Jekyll Site to view complete list of variables -->
+    <!-- Liquid Filters: sort: order filter -->
+    {% for page in sorted_pages %} 
+    <!-- for each html page in this array -->
+    <li class="btn"><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li>
+    {% endfor %}
+</ul>
