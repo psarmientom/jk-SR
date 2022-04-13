@@ -11,6 +11,7 @@ order: 1
 ## Welcome to GitHub Pages
 
 Displaying site title: {{site.title}}
+{% include nav.html %}
 
 
 You can use the [editor on GitHub](https://github.com/sophrodri/jk-assignment/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
