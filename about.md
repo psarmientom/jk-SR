@@ -8,5 +8,8 @@ description: List of the team members
 
 Adding Comments: {% comment %} This is not showing on the page {% endcomment %}
 
+{% include nav.html %}
+
+
 {% include credits.html %}
 
