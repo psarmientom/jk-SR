@@ -3,6 +3,7 @@
 // adding variables to change completely above import
 $header-heading-color: #deeb34 !default;
 $body-link-color: #ffffff !default;
+$header-bg-color: #ff9cdb !default;
 
 @import "{{ site.theme }}";
 
@@ -21,3 +22,5 @@ li.btn{
 }
 
 // To override a specific element style, be specific: instead of h1, use h1.header
+
+// #main-content h1
