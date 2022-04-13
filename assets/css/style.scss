@@ -1,8 +1,8 @@
 ---
 ---
-
+// adding variables to change completely above import
 $header-heading-color: #deeb34 !default;
-// adding variables to change completely above import 
+$body-link-color: #ffffff !default;
 
 @import "{{ site.theme }}";
 
@@ -19,3 +19,5 @@ li.btn{
    list-style: none;
    color: purple;
 }
+
+// To override a specific element style, be specific: instead of h1, use h1.header
