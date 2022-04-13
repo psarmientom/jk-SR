@@ -13,4 +13,5 @@ color: #000000;
 
 li.btn{
    display:flex; 
+   list-style: none;
 }
