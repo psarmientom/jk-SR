@@ -1,7 +1,7 @@
 ---
 layout: default 
-title: Home Page Here
-description: List of the team members 
+title: Welcome
+description: This is the homepage.
 --- 
 
 
