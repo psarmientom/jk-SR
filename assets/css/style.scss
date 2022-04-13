@@ -1,6 +1,9 @@
 ---
 ---
 
+$header-heading-color: #deeb34 !default;
+// adding variables to change completely above import 
+
 @import "{{ site.theme }}";
 
 h1{
