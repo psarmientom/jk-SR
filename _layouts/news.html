@@ -37,17 +37,18 @@
 <div class="card">
     <div class="pic">
         <img src="{{block.image}}" alt="{{block.image-alt}}">
+    </div>
         <div class="content">
             <h3 class="title">{{block.title}}</h3>
            <h4>{{block.subtitle}}</h4>
            <p>{{block.story-content}}</p>
-           <p><a href="{{block.tag-link}}"> {{block.tag}}</a></p>
+           <p><a href="{{block.tag-link}}">{{block.tag}}</a></p>
         </div>
     </div>
 </div>
 {% endfor %}
 
-    </div>
+
 
       <footer class="site-footer">
         <!-- {% if site.github.is_project_page %}
