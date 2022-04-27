@@ -7,10 +7,6 @@ $body-link-color: #ffffff !default;
 
 @import "{{ site.theme }}";
 
-h1{
-color: #000000; 
-}
-
 .about{
    padding: 0;
 }
@@ -21,23 +17,39 @@ nav ul{
    list-style: none;
    justify-content: center;
    padding-left:0;
-   background: black;
+}
+
+nav li{
+   color: black;
 }
 
 li.btn{
    list-style: none;
 }
 
+p.body{
+   font-family: 'EB Garamond', serif;
+   font-weight: 400;
+}
+
+h1.page-header{
+   font-family: 'Permanent Marker', cursive;
+}
+
+
+
 // To override a specific element style, be specific: instead of h1, use h1.header
 
 // #main-content h1
 .page-header{
    background-image: url(img/heroimg.jpeg);
-   padding-bottom: 4rem;
+   background-size: cover;
+   padding-bottom: 50%;
 }
 
 .nav{
-   color: black;
+   background: white;
+   padding-bottom: ;
 }
 
 .project-name{
