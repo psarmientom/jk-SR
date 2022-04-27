@@ -1,14 +1,9 @@
 ---
-layout: default 
-title: Welcome
-description: This is the homepage.
+layout: home
+title: Welcome to The Overdressed Diaries
+description: a fashion blog by Sophia Rodriguez 
 order: 1 
 --- 
-
-
-
-
-## Welcome to GitHub Pages
 
 Displaying site title: {{site.title}}
 {% include nav.html %}
