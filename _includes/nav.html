@@ -1,6 +1,8 @@
 <nav class="nav">
 <div id="logo">
-   {{site.logo}}
+   {% if site.logo %}
+   <img id="logo"" src="/assets/img/logo.png" alt="logo">
+   {% endif %}
 </div>
 <ul>
     {% assign sorted_pages = site.html_pages | sort:"order" %}
