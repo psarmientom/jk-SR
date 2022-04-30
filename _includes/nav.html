@@ -1,7 +1,5 @@
-<!-- everytime you add a new html page, it adds to the nav -->
 <nav class="nav">
 <div id="logo">
-<a href="../assets/img/logo.png"></a>
 </div>
 <ul>
     {% assign sorted_pages = site.html_pages | sort:"order" %}
@@ -9,15 +7,8 @@
     <!-- Liquid Filters: sort: order filter -->
     {% for page in sorted_pages %} 
     <!-- for each html page in this array -->
-    <li class="btn"><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li>
+    <li><a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a></li>
     {% endfor %}
 </ul>
 </nav>
 
-<!-- <nav>
-    <ul> 
-        <li class="btn"><a href="index">home</a></li>
-        <li class="btn"><a href="about">about</a></li>
-        <li class="btn"><a href="contact">contact</a></li>
-    </ul>
-</nav> -->
