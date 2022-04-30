@@ -41,8 +41,9 @@ font-family: 'Arial', sans-serif;
 }
 
 #logo{
-   background-image: url(../img/logo.png); 
    background-color: white;
+ width: 150px;
+   display: inline-block;
 }
 
 .nav{
