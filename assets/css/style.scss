@@ -1,21 +1,14 @@
 ---
 ---
-// adding variables to change completely above import
-$header-heading-color: #deeb34 !default;
-$body-link-color: #ffffff !default;
-// $header-bg-color: #ff9cdb !default;
 
 @import "{{ site.theme }}";
 
-.about{
-   padding: 0;
-}
 
 
 nav ul{
    display:flex;
    list-style: none;
-   justify-content: center;
+   justify-content: right;
    padding-left:0;
 }
 
@@ -23,17 +16,23 @@ nav li{
    color: black;
 }
 
-li.btn{
-   list-style: none;
+
+.btn{
+border-style: none;
 }
 
 p.body{
-   font-family: 'EB Garamond', serif;
+   font-family: 'Arial', sans-serif;
    font-weight: 400;
 }
 
+
 h1.page-header{
    font-family: 'Permanent Marker', cursive;
+}
+
+h2.page-header{
+font-family: 'Arial', sans-serif; 
 }
 
 
@@ -45,6 +44,11 @@ h1.page-header{
    background-image: url(img/heroimg.jpeg);
    background-size: cover;
    padding-bottom: 50%;
+}
+
+#logo{
+   background-image: url(img/pink-logo.png); 
+   background-color: white;
 }
 
 .nav{
