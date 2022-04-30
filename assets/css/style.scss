@@ -15,12 +15,18 @@ color: #000000;
    padding: 0;
 }
 
+#logo{
+   color: black;
+   background-image: url();
+}
+
 
 nav ul{
    display:flex;
    list-style: none;
    justify-content: center;
    padding-left:0;
+   color: red;
 }
 
 // li.btn{
