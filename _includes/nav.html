@@ -1,6 +1,6 @@
 <nav class="nav">
 <div id="logo">
-     <picture> <source media="(min-width:100px)" srcset="../assets/img/logo.png"> </picture>
+   {{site.logo}}
 </div>
 <ul>
     {% assign sorted_pages = site.html_pages | sort:"order" %}
