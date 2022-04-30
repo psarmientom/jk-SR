@@ -8,7 +8,7 @@
 nav ul{
    display:flex;
    list-style: none;
-   justify-content: right;
+   justify-content: center;
    padding-left:0;
 }
 
@@ -44,7 +44,8 @@ font-family: 'Arial', sans-serif;
    background-color: white;
  width: 150px;
    display: inline-block;
-   justify-items: left;
+   justify-items: center;
+   padding-bottom: 30px;
 }
 
 .nav{
