@@ -18,17 +18,22 @@ border-style: none;
 }
 
 p.body{
-   font-family: 'Arial', sans-serif;
-   font-weight: 400;
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 300;
+   font-size; 1rem;
 }
 
 
 h1.page-header{
-   font-family: 'Permanent Marker', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700; 
+    font-size: 5rem;
 }
 
 h2.page-header{
-font-family: 'Arial', sans-serif; 
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 3rem; 
+   
 }
 
 // To override a specific element style, be specific: instead of h1, use h1.header
@@ -42,7 +47,7 @@ font-family: 'Arial', sans-serif;
 
 #logo{
    background-color: white;
- width: 150px;
+   width: 150px;
    display: inline-block;
    justify-items: center;
    padding-bottom: 20px;
@@ -72,8 +77,7 @@ a{
 
 #hero-text{
 padding-top: 45%;
-padding-bottom: 45%;
-}
+padding-bottom: 45%; }
 
 
 // News CSS 
