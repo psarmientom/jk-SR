@@ -7,4 +7,4 @@ order: 1
 
 
 
-{% include credits.html %}
+{% include footer.html %}
