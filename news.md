@@ -5,3 +5,4 @@ description: Blog Posts and moodboards.
 order: 2
 --- 
 
+{% include footer.html%}
