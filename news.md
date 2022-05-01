@@ -1,7 +1,7 @@
 ---
 layout: news
-title: Breaking News
-description: Some News Articles.
-order: 4
+title: Blog Posts 
+description: Blog Posts and moodboards. 
+order: 2
 --- 
 
